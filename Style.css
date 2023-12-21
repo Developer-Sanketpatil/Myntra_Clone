@@ -92,15 +92,22 @@ main{
     font-weight: 700;
     text-transform: uppercase;
     min-height: 5em;
-    margin: 50px 0 10px 30px;
+    margin: 80px 0 0px 30px;
+    min-width: 200px;
 }
 .sale_items{
-    width: 250px;
+    min-width: 100px;
+    width: 200px;
+    padding: 5px 5px 5px 5px;
+    box-sizing: border-box;
 }
 .category_items{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+.sale_items:hover{
+    border:2px solid #ff3f6c;
 }
 .foot-container{
     display: flex;
